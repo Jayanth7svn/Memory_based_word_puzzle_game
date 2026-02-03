@@ -14,4 +14,4 @@ Memory-Word-Puzzle/
 
 This project is mainly intended for learning JavaScript DOM manipulation and basic interactive game logic.
 
-Author: Jayanth Kumar```
+Author: Jayanth Kumar
