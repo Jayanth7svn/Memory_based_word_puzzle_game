@@ -1,0 +1,68 @@
+body{
+    height:100vh;
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+.instructions{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    background:#222;
+    color:white;
+    text-align:center;
+}
+
+.instructions button{
+    margin-top:20px;
+    padding:10px 20px;
+    font-size:16px;
+}
+
+.hidden{
+    display:none;
+}
+
+#game{
+    display:flex;
+    height:100%;
+}
+
+.left,.right{
+    width:50%;
+    padding:20px;
+    box-sizing:border-box;
+    overflow-y:auto;
+}
+
+.left{
+    background-color:gray;
+    text-align:center;
+}
+
+.right{
+    background-color:teal;
+}
+
+input{
+    margin:5px;
+}
+
+.grid{
+    margin:20px auto;
+    border-collapse:collapse;
+    font-family:monospace;
+    text-align:center;
+}
+
+.grid th,.grid td{
+    border:1px solid black;
+    padding:8px 12px;
+}
+
+.grid th{
+    background-color:lightgray;
+    font-weight:bold;
+}
